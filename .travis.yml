@@ -5,12 +5,12 @@ dist: trusty
 # Blacklist
 branches:
   only:
-    - master
+    - main
 
 # Environment variables
 env:
   global:
-    - GH_REPO_REF: github.com/DavidAntliff/esp32-owb.git
+    - GH_REPO_REF: github.com/wolffshots/esp32-owb.git
 
 # Install dependencies
 addons:
@@ -32,8 +32,8 @@ deploy:
   provider: pages
   skip-cleanup: true
   local-dir: doc/html
-  github-token: $GITHUB_TOKEN
+  github-token: $TRAVIS_TOKEN
   on:
-    branch: master
+    branch: main
   target-branch: gh-pages
 
