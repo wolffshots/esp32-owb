@@ -1,0 +1,18 @@
+# config vars for esp32-gpio
+menu "wolffshots/esp32-owb config"
+    config OWB_GPIO_TAG
+        string "owb gpio tag"
+        default "esp32-owb_gpio"
+        help
+            tag for use with esp log library for owb gpio library
+    config OWB_RMT_TAG
+        string "owb rmt tag"
+        default "esp32-owb_rmt"
+        help
+            tag for use with esp log library for owb rmt library
+    config OWB_TAG
+        string "owb tag"
+        default "esp32-owb"
+        help
+            tag for use with esp log library for owb library
+endmenu
