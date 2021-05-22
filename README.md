@@ -1,4 +1,5 @@
 # esp32-owb
+Docs: [![couldn't get build status](https://api.travis-ci.com/wolffshots/esp32-owb.svg?branch=main "Current doc build status")](https://davidantliff.github.io/esp32-owb/index.html)
 
 This is a ESP32-compatible C component for the Maxim Integrated "1-Wire" protocol.
 
