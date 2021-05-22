@@ -58,3 +58,7 @@ reliable operation.
 Parts of this code are based on references provided to the public domain by Maxim Integrated.
 
 "1-Wire" is a registered trademark of Maxim Integrated.
+
+## todo
+
+- [ ] go through code and comment towards my own understanding
