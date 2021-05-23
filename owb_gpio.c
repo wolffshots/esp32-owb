@@ -262,7 +262,7 @@ static const struct owb_driver gpio_function_table =
 
 OneWireBus *owb_gpio_initialize(owb_gpio_driver_info *driver_info, int gpio)
 {
-    ESP_LOGD(TAG, "%s(): gpio %d\n", __func__, gpio);
+    ESP_LOGD(TAG, "%s(): gpio %d", __func__, gpio);
 
     driver_info->gpio = gpio;
     driver_info->bus.driver = &gpio_function_table;
